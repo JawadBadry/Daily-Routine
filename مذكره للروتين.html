@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مذكره</title>
+</head>
+<body style ="display : grid; place-items: center; height: 100vh; margin: 0%;">
+<center>
+<h1>مذكره للروتين</h1>
+<input type="text" id="user_input" placeholder="...اكتب/ي روتينك هنا">
+<button onclick="display_text.innerHTML += '<div draggable=true style=cursor:move;margin-top:10px><input type=checkbox> <span>' + user_input.value + '</span> <button onclick=this.parentElement.remove()>حذف</button> ☰</div>'">إضافة</button>
+<p id="display_text"></p>
+<br>
+<p id=" distlay_text"></p>
+
+</center>
+</body>
+<style>
+
+</style>
+</html>
